@@ -1,4 +1,6 @@
 {
     "name": "Hormann gate",
-    "country": ["PL"]
+    "homeassistant": "2022.8.0",
+    "content_in_root": false,
+    "iot_class": "local_polling"
 }

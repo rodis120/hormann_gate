@@ -11,5 +11,6 @@
   "codeowners": [
     "@rodis120"
   ],
-  "iot_class": "local_polling"
+  "iot_class": "local_polling",
+  "version": "1.0.0"
 }
