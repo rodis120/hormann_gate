@@ -59,8 +59,8 @@ class HormannLight(LightEntity):
 
     async def async_turn_on(self, **kwargs: Any) -> None:
         """Turn on."""
-        await mqtt.async_publish(self._hass, f"{self._root_topic}/light", "true", 0)
+        await mqtt.async_publish(self._hass, f"{self._root_topic}/action", "light_on", 0)
 
     async def async_turn_off(self, **kwargs: Any) -> None:
         """Turn off."""
-        await mqtt.async_publish(self._hass, f"{self._root_topic}/light", "false", 0)
+        await mqtt.async_publish(self._hass, f"{self._root_topic}/action", "light_off", 0)
