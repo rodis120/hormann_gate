@@ -2,6 +2,6 @@
 
 DOMAIN = "hormann_gate"
 
-ATTR_MANUFACTURER = "hormann"
+CONF_ROOT_TOPIC = "root_topic"
 
-UPDATE_INTERVAL = 10
+ATTR_MANUFACTURER = "hormann"

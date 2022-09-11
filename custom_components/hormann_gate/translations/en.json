@@ -3,14 +3,10 @@
         "abort": {
             "already_configured": "Device is already configured"
         },
-        "error": {
-            "cannot_connect": "Failed to connect",
-            "unknown": "Unexpected error"
-        },
         "step": {
             "user": {
                 "data": {
-                    "host": "Host",
+                    "root_topic": "Root topic",
                     "name": "Name"
                 }
             }
